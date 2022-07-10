@@ -1,0 +1,562 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+header
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #F5F5F5;
+}
+
+header .logo 
+{
+	/*border: 1px solid black;*/
+	width: 200px;
+	height: 80px;
+	background-color: #FFD700;
+	display: grid;
+	place-items: center;
+	color: white;
+}
+
+header .status_login
+{
+	/*border: 1px solid #FFD700;*/
+	background-color: #FFD700;
+	width: 100px;
+	height: 80px;
+	display: grid;
+	place-items: center;
+}
+
+header .status_login button
+{
+	border-style: none;
+	background-color: #FF0000;
+	padding: 10px;
+	color: white;
+	font-weight: 600;
+}
+
+header .status_login button:hover
+{
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  transition: 0.6s;
+}
+
+
+.anuncio-black
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	display: grid;
+	place-items: center;
+	color: white;
+}
+
+
+.login-and-cadastro
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.login-and-cadastro .login 
+{
+	/*border: 1px solid red;*/
+	width: 35%;
+	height: 80px;
+	background-color: #FFD700;
+	display: grid;
+	place-items: center;
+}
+
+.login-and-cadastro .login a 
+{
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+.login-and-cadastro .login a:hover
+{
+	color: black;
+	text-shadow: 1px 1px white;
+	transition: 0.6s;
+}
+
+.login-and-cadastro .fretes
+{
+	width: 35%;
+	/*border: 1px solid black;*/
+	background-color: #FFD700;
+	display: grid;
+	place-items: center;
+}
+
+.login-and-cadastro .fretes a 
+{
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+.login-and-cadastro .fretes a:hover
+{
+	color: black;
+	text-shadow: 1px 1px white;
+	transition: 0.6s;
+}
+
+.login-and-cadastro .cadastro 
+{
+	/*border: 1px solid red;*/
+	width: 40%;
+	height: 80px;
+	background-color: #FFD700;
+	display: grid;
+	place-items: center;
+}
+
+.login-and-cadastro .cadastro a 
+{
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+
+.login-and-cadastro .cadastro a:hover
+{
+	color: black;
+	text-shadow: 1px 1px white;
+	transition: 0.6s;
+}
+
+.painel
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.painel .foto 
+{
+	/*border: 1px solid black;*/
+	width: 50%;
+	height: 500px;
+	display: grid;
+	place-items: center;
+}
+
+.painel .foto img 
+{
+	width: 50%;
+	height: 100%;
+}
+
+.painel .quadro-formulario
+{
+	/*border: 1px solid black;*/
+	width: 50%;
+	height: 500px;
+}
+
+.painel .quadro-formulario .formulario 
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 415px;
+}
+
+.painel .quadro-formulario .sobre-produto
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 100px;
+}
+
+.painel .quadro-formulario form
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.painel .quadro-formulario form .quadros
+{
+	/*border: 1px solid blue;*/
+	width: 50%;
+	height: 50px;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	background-color: #F5F5F5;
+}
+
+.painel .quadro-formulario form .quadros .centralizando 
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	display: flex;
+	align-content: center;
+	align-items: center;
+}
+
+.painel .quadro-formulario form .quadros .centralizando label
+{
+	margin-left: 50%;
+}
+
+.painel .quadro-formulario form .quadros .centralizando input
+{
+	border-radius: 100%;
+	margin-left: 5px;
+}
+
+.painel .quadro-formulario form .quadros .centralizando input:active
+{
+	border-style: none;
+}
+
+.painel .quadro-formulario form .painel-quantidade
+{
+	/*border: 1px solid blue;*/
+	width: 100%;
+	height: 50px;
+	display: flex;
+}
+
+.painel .quadro-formulario form .painel-quantidade .mais 
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100%;
+	display: grid;
+	place-items: center;
+}
+
+.painel .quadro-formulario form .painel-quantidade .mais:hover
+{
+ box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+ transition: 0.6s;
+}
+
+
+.painel .quadro-formulario form .painel-quantidade .mais button 
+{
+	width: 100%;
+	height: 100%;
+	border-style: none;
+	background-color: #FFD700;
+}
+
+.painel .quadro-formulario form .painel-quantidade .mais button img
+{
+	/*border: 1px solid black;*/
+	width: 25px; 
+	height: 25px;
+}
+
+.painel .quadro-formulario form .painel-quantidade .mais button:active
+{
+	border: 1px solid #FFD700;
+  background-color: white;
+}
+
+
+.painel .quadro-formulario form .painel-comprar
+{
+	/*border: 1px solid blue;*/
+	width: 100%;
+	height: 50px;
+	display: flex;
+}
+
+
+.painel .quadro-formulario form .painel-comprar .comprar
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100%;
+	display: grid;
+	place-items: center;
+}
+
+.painel .quadro-formulario form .painel-comprar .result p 
+{
+	margin-top: 10px;
+	font-weight: 600;
+}
+
+.painel .quadro-formulario form .painel-comprar .comprar input
+{
+	border-style: none;
+	width: 100%;
+	height: 100%;
+	color: white;
+	font-weight: 600;
+	background-color: #32CD32;
+}
+
+.painel .quadro-formulario form .painel-comprar .comprar input:hover
+{
+	box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  transition: 0.6s;
+}
+
+.painel .quadro-formulario form .painel-comprar .comprar input:active
+{
+  background-color: white;
+}
+
+
+.footer 
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 559px;
+	background-color: #FFD700;
+	display: flex;
+}
+
+.footer .links
+{
+	/*border: 1px solid white;*/
+	width: 100%;
+	height: 100%;
+}
+
+.footer .links h1
+{
+	color: black;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.footer .links p 
+{
+  color: black;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.footer .links a 
+{
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	margin-left: 20px;
+}
+
+.footer .links a:hover
+{
+	color: white;
+	transition: 0.6s;
+}
+
+.footer .logo-all-here
+{
+	/*border: 1px solid white;*/
+	width: 100%;
+	height: 100%;
+	display: grid;
+	place-items: center;
+}
+
+.footer .logo-all-here .img
+{
+	/*border: 1px solid white;*/
+	width: 300px;
+	height: 300px;
+	background-color: black;
+	display: grid;
+	place-items: center;
+	border-radius: 100%;
+}
+
+
+.footer .logo-all-here .img h1
+{
+	color: #FFD700;
+}
+
+@media only screen and (max-width: 600px){
+ 
+ .anuncio-black p 
+ {
+ 	font-size: 10px;
+ }
+
+ .login-and-cadastro .login 
+{
+	/*border: 1px solid red;*/
+	width: 50%;
+	height: 50px;
+	background-color: #FFD700;
+}
+
+.login-and-cadastro .cadastro 
+{
+	/*border: 1px solid red;*/
+	width: 50%;
+	height: 50px;
+	background-color: #FFD700;
+}
+
+.login-and-cadastro .login a
+{
+	font-size: 10px;
+}
+
+.login-and-cadastro .cadastro a
+{
+	font-size: 10px;
+}
+
+.login-and-cadastro .fretes a 
+{
+	font-size: 10px;
+}
+
+ .painel .foto
+ {
+ 	 /*border: 1px solid green;*/
+   width: 50%;
+   height: 300px;
+ }
+
+ .painel .foto img 
+{
+	width: 100%;
+	height: 100%;
+}
+
+ .painel .quadro-formulario
+ {
+ 	/*border: 1px solid blue;*/
+ 	width: 50%;
+ 	height: 300px;
+ }
+
+ .painel .quadro-formulario .sobre-produto
+ {
+ 	width: 100%;
+ 	height: 50px;
+ }
+
+ .painel .quadro-formulario .formulario
+ {
+ 	width: 100%;
+ 	height: 247px;
+ 	display: flex;
+ }
+
+ .painel .quadro-formulario form
+ {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ }
+
+ .painel .quadro-formulario form .quadros
+ {
+ 	width: 50%;
+ 	height: 50px;
+ }
+
+ .painel .quadro-formulario form .painel-comprar .comprar input
+ {
+ 	 font-size: 10px;
+ }
+
+ .painel .quadro-formulario form .painel-comprar .result p 
+ {
+ 	font-size: 10px;
+ 	margin-top: 10px;
+ }
+
+ .painel .quadro-formulario form .painel-quantidade .mais button img
+{
+	/*border: 1px solid black;*/
+	width: 10px; 
+	height: 10px;
+}
+
+.painel .quadro-formulario form .painel-quantidade .menos button
+{
+	font-size: 10px;
+}
+
+.painel .quadro-formulario form .painel-quantidade .menos button img
+{
+	/*border: 1px solid black;*/
+	width: 10px; 
+	height: 10px;
+}
+
+
+.painel .quadro-formulario form .quadros .centralizando 
+{
+	/*border: 1px solid black;*/
+}
+
+.painel .quadro-formulario form .quadros .centralizando label
+{
+	font-size: 10px;
+}
+
+.painel .quadro-formulario form .quadros .centralizando input
+{
+	width: 10px;
+	height: 10px;
+	margin-top: 1px;
+}
+
+.footer .logo-all-here .img
+{
+	width: 150px;
+	height: 150px;
+	display: grid;
+	place-items: center;
+}
+
+#descricao
+{
+	font-size: 10px;
+	margin-top: -10px;
+}
+
+.footer .links h1
+{
+	font-size: 20px;
+}
+
+.footer .links p 
+{
+	font-size: 10px;
+}
+
+.footer .links a 
+{
+	font-size: 10px;
+}
+
+}
